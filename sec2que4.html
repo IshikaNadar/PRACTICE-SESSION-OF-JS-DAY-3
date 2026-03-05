@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques 4 of sec 2</title>
+</head>
+<body>
+    <button onclick="convert()">Convert temperature</button>
+    <script>
+        function convert(){
+            const temp = prompt("Enter temperature in Celsius");
+            let fahrenheit = (parseFloat(temp)*9/5)+32;
+            console.log(temp+" degree Celsius is equal to "+fahrenheit+" degree Fahrenheit");
+        }
+    </script>
+</body>
+</html>
